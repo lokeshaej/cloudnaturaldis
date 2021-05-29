@@ -89,13 +89,13 @@ def y_predict():
         output=prediction[0] 
         if output < 4 :
             print(output)
-            output="No EarthQuake In This Region"
+            output="No EarthQuake "+location+" In This Region"
         elif output >4 and output <5.5 :
             print(output)
-            output="EarthQuake  In This Region May Occurs Soon"
+            output="EarthQuake  In "+location+" Region May Occurs Soon"
         else :
             print(output)
-            output="EarthQuake In This Region Occurs "
+            output="EarthQuake In "+location+" This Region Occurs "
         print(output)
         
         
@@ -149,7 +149,7 @@ def y_predictt():
         output=prediction[0] 
         if output < 3.9 :
             print(output)
-            output="No Cyclone In This Region"
+            output="No Cyclone"+location+" In This Region"
         elif output >3.9 and output <4.5 :
             print(output)
             output="Tropical Cyclone of intensity is greater than 64 knots"
@@ -168,7 +168,7 @@ def y_predictt():
         
         else :
             print(output)
-            output="No Cyclone In This Region"
+            output="No Cyclone"+location+" In This Region"
         print(output)
         
         
