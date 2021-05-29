@@ -89,7 +89,7 @@ def y_predict():
         output=prediction[0] 
         if output < 4 :
             print(output)
-            output="No EarthQuake "+location+" In This Region"
+            output="No EarthQuake In"+location+" Region"
         elif output >4 and output <5.5 :
             print(output)
             output="EarthQuake  In "+location+" Region May Occurs Soon"
@@ -152,23 +152,23 @@ def y_predictt():
             output="No Cyclone"+location+" In This Region"
         elif output >3.9 and output <4.5 :
             print(output)
-            output="Tropical Cyclone of intensity is greater than 64 knots"
+            output="Tropical Cyclone of intensity is greater than 64 knots in"+location+ "region"
         elif output >4.5 and output <7.5 :
             print(output)
-            output="No Cyclone In This Region"
+            output="No Cyclone In "+location+" This Region"
         elif output >7.5 and output <8.8 :
             print(output)
-            output="Tropical Cyclone of intensity is greater than 34 knots"
+            output="Tropical Cyclone of intensity is greater than 34 knots in"+location+ "region"
         elif output >8.8 and output <10.9 :
             print(output)
-            output="Tropical Cyclone of intensity is less than 34 knots"
+            output="Tropical Cyclone of intensity is less than 34 knots in"+location+ "region"
         elif output >10.9 and output <12 :
             print(output)
-            output="Tropical Cyclone of intensity is between 34-64 knots"
+            output="Tropical Cyclone of intensity is between 34-64 knots in"+location+ "region"
         
         else :
             print(output)
-            output="No Cyclone"+location+" In This Region"
+            output="No Cyclone In"+location+" Region"
         print(output)
         
         
@@ -229,7 +229,7 @@ def y_predicttt():
         output=predictionk[0] 
         if output < 0.7 :
             print(output)
-            output="No Floods In "+location+" Region and Safe zone"
+            output="No Floods in "+location+" Region and Safe zone"
         
         else :
             print(output)
