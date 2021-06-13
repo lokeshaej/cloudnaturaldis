@@ -149,7 +149,7 @@ def y_predictt():
         output=prediction[0] 
         if output < 3.9 :
             print(output)
-            output="No Cyclone In"+location+"  Region"
+            output="No Cyclone In "+location+"  Region"
         elif output >3.9 and output <4.5 :
             print(output)
             output="Tropical Cyclone of intensity is greater than 64 knots in "+location+ " region"
